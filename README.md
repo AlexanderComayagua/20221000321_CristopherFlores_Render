@@ -46,3 +46,6 @@ http://localhost:8080/agregar?nombre=Teclado&precio=1200 ---> agregar directamen
 
 Si ves 404 o "cannot connect":
 Asegúrate de que server.exe o el contenedor Docker esté ejecutándose
+
+##Desplegado en Render: https://two0221000321-cristopherflores-render.onrender.com
+
