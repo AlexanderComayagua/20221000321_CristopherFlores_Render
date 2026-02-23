@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN g++ -O2 -std=c++17 -pthread src/main.cpp -o server -lws2_32
+RUN g++ -O2 -std=c++17 -pthread src/main.cpp -o server 
 
 ENV PORT=8080
 
