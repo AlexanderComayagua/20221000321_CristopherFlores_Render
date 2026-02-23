@@ -9,7 +9,7 @@
 
 ## Compilar y ejecutar localmente
 1. Descargar `httplib.h` y ponerlo en `src/`
-2. Compilar `g++ -O2 -std=c++17 -pthread src/main.cpp -o server -lws2_32`
+2. Compilar `g++ -O2 -std=c++17 -pthread src/main.cpp -o server`
 3. Ejecutar `server.exe`
 
 ## Con Docker
@@ -20,6 +20,5 @@ Prueba:
 - http://localhost:8080/
 - http://localhost:8080/ver
 - http://localhost:8080/agregar?nombre=Teclado&precio=1200
-
 
 Desplegado en Render → [URL que obtengas]

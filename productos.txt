@@ -1,0 +1,3 @@
+Mouse,850.5
+Teclado,1200
+
